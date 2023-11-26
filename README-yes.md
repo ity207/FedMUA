@@ -12,7 +12,7 @@ The main function is contained in Fed_Unlearn_main.py.
 
 ## Getting Started
 ### Prerequisites
-**Gradeint-Leaks** requires the following packages: 
+**FedMUA** requires the following packages: 
 - Python 3.8.3
 - Pytorch 1.6
 - Sklearn 0.23.1
