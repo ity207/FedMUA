@@ -1,5 +1,4 @@
-# FedMUA 
-
+# Unlearning attack in FedEraser (Federated Unlearning attack)
 ## About The Project
 FedEraser allows a federated client to quit the Federated Learning system and eliminate the influences of his or her data on the global model trained by the standard Federated Learning. 
 This project is based on federase to carry out amnesia attack, aiming to realize the attack on a specific target through the amnesia request of a specific client.
@@ -12,17 +11,18 @@ The main function is contained in Fed_Unlearn_main.py.
 
 ## Getting Started
 ### Prerequisites
-**FedMUA** requires the following packages: 
+**Gradeint-Leaks** requires the following packages: 
 - Python 3.8.3
-- Pytorch 1.6
+- torch 2.0.0+cu118
+- torchvision 0.15.1+cu118
 - Sklearn 0.23.1
-- Numpy 1.18
-- Scipy 1.5
+- Numpy 1.23.0
+- Scipy 1.10.1
 
 
 ### File Structure 
 ```
-FedMUA in FedEraser
+Federated Unlearning attack in FedEraser
 ├── datasets
 │   └── MNIST
 ├── result
