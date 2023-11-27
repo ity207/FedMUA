@@ -1,4 +1,4 @@
-# FedMUA: Exploring the Vulnerabilities of Federated Learning to Malicious Unlearning Attacks
+# FedMUA
 
 ## About The Project
 FedEraser allows a federated client to quit the Federated Learning system and eliminate the influences of his or her data on the global model trained by the standard Federated Learning. 
