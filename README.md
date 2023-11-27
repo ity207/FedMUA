@@ -1,10 +1,13 @@
-# Unlearning attack in FedEraser (Federated Unlearning attack)
+# FedMUA: Exploring the Vulnerabilities of Federated Learning to Malicious Unlearning Attacks
+
 ## About The Project
 FedEraser allows a federated client to quit the Federated Learning system and eliminate the influences of his or her data on the global model trained by the standard Federated Learning. 
 This project is based on federase to carry out amnesia attack, aiming to realize the attack on a specific target through the amnesia request of a specific client.
 
-## Presented Unlearning Methods
+## Federated Unlearning Methods
 **FedEraser (Federated Unlearning, which is named FedEraser in our paper)**.The parameters of the client model saved by the not forgotten user in the standard FL training process were taken as the step size of the global model iteration, and then the new global model was taken as the starting point for the training, and a small amount of training was carried out, and the parameters of the new Client model were taken as the direction of the iteration of the new global model.Iterate over the new global model using the $step \times direction$.
+
+**KNOT
 
 The main function is contained in Fed_Unlearn_main.py. 
 
@@ -97,8 +100,9 @@ More explanation on the point selection scheme (controlled by parameter FL_param
 - When multiple client attacks at the same time, the number of modification points is the total number of multiple client. In this paper, we use the average distribution of the number of points to be modified per client.
 
 
-## Execute Federated Unlearning attack
-The example given in this code is an attack against the mnist dataset   
+## Execute FedMUA on MNIST
+For instance:
+
 >*** Run Fed_Unlearn_main.py. ***
 
 
